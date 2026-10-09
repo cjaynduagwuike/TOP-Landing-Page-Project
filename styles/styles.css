@@ -40,7 +40,8 @@ section {
   overflow: hidden;
 }
 
-#front-page {
+#front-page,
+#second-page {
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 15px;
@@ -94,10 +95,14 @@ li {
   margin-bottom: 10px;
 }
 
-img {
+.hero-image {
   width: 350px;
   height: 200px;
+  background-color: rgba(128, 128, 128, 0.736);
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 button {
@@ -112,4 +117,15 @@ button {
   font-weight: 700;
   font-size: 12px;
   border: 1px solid var(--button-bg-color);
+}
+
+#second-page {
+  background-color: #f9faf8;
+}
+
+.information-heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
 }
