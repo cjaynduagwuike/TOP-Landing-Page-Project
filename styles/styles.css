@@ -72,6 +72,7 @@ li {
 
 .container {
   display: flex;
+  gap: 40px;
 }
 
 .hero-section,
@@ -93,8 +94,22 @@ li {
   margin-bottom: 10px;
 }
 
+img {
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+}
+
 button {
   background-color: var(--button-bg-color);
   width: 100px;
-  color: white;
+  height: 30px;
+  color: #f9faf8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 12px;
+  border: 1px solid var(--button-bg-color);
 }
